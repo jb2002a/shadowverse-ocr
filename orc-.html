@@ -264,7 +264,7 @@
 
       try {
         // ★★ 아래 URL을 자신의 백엔드 서버 주소로 반드시 교체 ★★
-        const response = await fetch("http://localhost:3000/ocr", {
+        const response = await fetch("https://shadowverse-ocr-1.onrender.com/ocr", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ base64img: lastBase64Img })
